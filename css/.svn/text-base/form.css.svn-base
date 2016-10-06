@@ -1,0 +1,180 @@
+/* CSS Document */
+form{
+	margin:0px;
+	padding:0px;
+}
+form fieldset{
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+form fieldset input,select,textarea{
+	margin:0px;
+	padding:0px;
+}
+form input,select,textarea{
+	margin:0px;
+	padding:0px;
+}
+.input_clear{
+	clear:both;
+	overflow:hidden;
+	padding:5px 0;
+}
+
+/*textbox*/
+.textbox_headersearch{ border:1px solid #BCDBE2; padding:1px; height:18px; background-color:#FFF; color:#00B7FC; font-size:11px; }
+.textbox{ border:1px solid #BCDBE2; padding:1px; height:18px; background-color:#FFF; color:#777; font-size:12px;  }
+ textarea.textbox{overflow:auto;}
+/*textbox end*/
+
+/*Button*/
+.searchbtn_leftborder{ background:url(../images/btnblue_leftborder.png) no-repeat top left; width:4px; float:left; height:22px; }
+.searchbtn_bg{ background:url(../images/btnblue_bg.jpg) repeat-x top left; width:auto; float:left; height:22px; color:#247D9B; border:none; cursor:pointer; line-height:22px; text-align:center; }
+.searchbtn_rightborder{ background:url(../images/btnblue_rightborder.png) no-repeat top left; width:4px; float:left; height:22px; }
+
+.greenbtn_leftborder{ background:url(../images/btngreen_leftborder.png) no-repeat top left; width:4px; float:left; height:22px; }
+.greenbtn_bg{ background:url(../images/btngreen_bg.jpg) repeat-x top left; width:auto; float:left; height:22px; color:#FFF; font-weight:bold; border:none; cursor:pointer; line-height:22px; text-align:center; }
+.greenbtn_bg a{ color:#FFF; }
+.greenbtn_rightborder{ background:url(../images/btngreen_rightborder.png) no-repeat top left; width:4px; float:left; height:22px; }
+
+.greensmallbtn_leftborder{ background:url(../images/btnsmallgreen_leftborder.png) no-repeat top left; width:5px; float:left; height:16px; }
+.greensmallbtn_bg{ background:url(../images/btnsmallgreen_bg.jpg) repeat-x top left; width:auto; float:left; height:16px; color:#247D99; border:none; cursor:pointer; line-height:16px; text-align:center; font-size:10px; }
+.greensmallbtn_bg a{ color:#247D99; }
+.greensmallbtn_rightborder{ background:url(../images/btnsmallgreen_rightborder.png) no-repeat top left; width:5px; float:left; height:16px; }
+
+.loggedinsearch{ border:none; font-weight:bold; background:none; color:#0084C4; font-size:12px; cursor:pointer; }
+
+.greenlongbtn{ border:none; background:url(../images/signup_btn.jpg) no-repeat top left; width:234px; height:50px; line-height:30px; text-align:center; font-size:15px; font-weight:bold; cursor:pointer; color:#FFF; margin:0 auto; }
+.greenlongbtn:hover{ color:#009900; }
+.greenlongbtn a{ display:block; border:none; background:url(../images/signup_btn.jpg) no-repeat top left; width:234px; height:50px; line-height:30px; text-align:center; font-size:15px; font-weight:bold; cursor:pointer; color:#FFF; }
+.greenlongbtn a:hover{ color:#009900; text-decoration:none; }
+
+.greensignupsmallbtn{ border:none; background:url(../images/signup_smallbtn.jpg) no-repeat top left; width:142px; height:49px; padding-bottom:15px; text-align:center; font-size:15px; font-weight:bold; cursor:pointer; color:#FFF; margin:0 auto; }
+.greensignupsmallbtn:hover{ color:#009900; }
+.greensignupsmallbtn a{ display:block; border:none; background:url(../images/signup_smallbtn.jpg) no-repeat top left; width:142px; height:49px; line-height:30px; text-align:center; font-size:15px; font-weight:bold; cursor:pointer; color:#FFF; }
+.greensignupsmallbtn a:hover{ color:#009900; text-decoration:none; }
+
+.blackbtn a{ display:block; background:url(../images/blackbtn.jpg) no-repeat top left; width:83px; height:14px; line-height:12px; text-align:center; cursor:pointer; color:#FFF; font-size:11px; }
+.greenbtn a{ display:block; background:url(../images/greenbtn.jpg) no-repeat top left; width:83px; height:14px; line-height:12px; text-align:center; cursor:pointer; color:#FFF; font-size:11px; }
+.orangebtn a{ display:block; background:url(../images/orangebtn.jpg) no-repeat top left; width:83px; height:14px; line-height:12px; text-align:center; cursor:pointer; color:#FFF; font-size:11px; }
+
+.graybtn_leftborder{ float:left; width:5px; background:url(../images/graybtn_leftborder.png) no-repeat top left; height:22px; }
+.graybtn_bg{ float:left; width:auto; background:url(../images/graybtn_bg.jpg) repeat-x top left; height:22px; border:none; text-align:center; cursor:pointer; color:#555; line-height:22px; padding:0 5px; }
+.graybtn_bg a{ display:block; float:left; width:auto; background:url(../images/graybtn_bg.jpg) repeat-x top left; height:22px; border:none; text-align:center; cursor:pointer; color:#555; line-height:22px; padding:0 5px; }
+.graybtn_bg a:hover{ color:#333; text-decoration:none; }
+.graybtn_rightborder{ float:left; width:5px; background:url(../images/graybtn_rightborder.png) no-repeat top left; height:22px; }
+
+.bluebtn_leftborder{ background:url(../images/bluebtn_leftborder.png) no-repeat top left; width:7px; height:22px; float:left; }
+.bluebtn_bg{ background:url(../images/bluebtn_bg.jpg) repeat-x top left; width:auto; height:22px; float:left; line-height:22px; font-size:16px; color:#fff; font-weight:bold; }
+.bluebtn_bg a{ color:#FFF; }
+.bluebtn_bg a:hover{ text-decoration:none; color:#03C; }
+.bluebtn_rightborder{ background:url(../images/bluebtn_rightborder.png) no-repeat top left; width:7px; height:22px; float:left; }
+
+.purplebtn_leftborder{ background:url(../images/purplebtn_leftborder.png) no-repeat top left; width:7px; height:22px; float:left; }
+.purplebtn_bg{ background:url(../images/purplebtn_bg.jpg) repeat-x top left; width:auto; height:22px; float:left; line-height:22px; font-size:16px; color:#fff; font-weight:bold; border:none; cursor:pointer; }
+.purplebtn_bg a{ color:#FFF; }
+.purplebtn_bg a:hover{ text-decoration:none; color:#03C; }
+.purplebtn_rightborder{ background:url(../images/bluebtn_rightborder.png) no-repeat top left; width:7px; height:22px; float:left; }
+
+.signinbtn_leftborder{ float:left; width:12px; background:url(../images/signinbtn_leftborder.png) no-repeat top left; height:29px; }
+.signinbtn_bg{ float:left; width:auto; background:url(../images/signinbtn_bg.jpg) repeat-x top left; height:29px; cursor:pointer; border:none; font-size:14px; color:#FFF; font-weight:bold; }
+.signinbtn_rightborder{ float:left; width:12px; background:url(../images/signinbtn_rightborder.png) no-repeat top left; height:29px; }
+
+.opt2link{ background:url(../images/opt2link.jpg) no-repeat top left; width:188px; height:143px; }
+.opt2linkInner{ padding:75px 10px 10px 32px; }
+.helpbtn a{ display:block; background:url(../images/bluebtn_help.jpg) no-repeat top left; font-size:11px; width:126px; height:25px; text-align:center; line-height:25px; }
+
+.green2optbtn a{ display:block; background:url(../images/greenbtn_start.jpg) no-repeat top left; font-size:11px; width:126px; height:25px; text-align:center; line-height:25px; color:#266500; }
+
+/*Button end*/
+
+/*header search box*/
+.headersearch_input{ float:left; width:200px; padding-right:10px; }
+.headersearch_select{ float:left; width:160px; padding-right:10px; }
+.headersearch_btn{ float:left; width:80px; padding-right:10px; }
+.headersearch_advance{ float:left; width:100px; }
+/*header search box end*/
+
+/*upload video*/
+.general_form input{ float:left; width:200px; }
+.general_form select{ float:left; width:200px; }
+.general_form textarea{ float:left; width:auto; }
+.general_form label{ float:left; width:150px; padding-right:15px; text-align:right; }
+
+.general_formcheckbox input{ float:left; width:20px; }
+.general_formcheckbox label{ float:left; width:auto;}
+/*upload video end*/
+
+/*Report form*/
+.reprotform_label{ float:left; width:185px; padding-right:5px; }
+.reprotform_checkbox{ float:left; width:30px; padding-right:5px; }
+.reprotform_select{ float:left; width:175px; }
+.reprotform_input{ float:left; width:130px; padding-right:5px; }
+/*Report form end*/
+
+/*Signup form*/
+.signupbtn_align{ padding:0 0 0 160px; }
+/*Signup form end*/
+
+/*advance search form*/
+.advancesearch_left{ float:left; width:400px; padding-right:20px; }
+.advancesearch_mid{ float:left; width:460px; padding-right:20px; }
+.advancesearch_right{ float:left; width:150px; }
+
+.advsearch input{ float:left; width:20px; padding:0 5px; }
+.advsearch label{ float:left; width:70px; padding:0 5px; }
+/*advance search form end*/
+
+/*contact form*/
+.contact_form input { float:left; width:180px; }
+.contact_form select { float:left; width:180px; }
+.contact_form textarea { float:left; width:auto; }
+.contact_form label { float:left; width:175px; padding-right:5px; }
+/*contact form end*/
+
+/*quiz making video*/
+.video_radio label{ float:left; width:305px; padding:0 10px; }
+.video_radio input{ float:left; width:25px; }
+
+.quizmakingform_left{ float:left; width:220px; padding-right:20px; }
+.quizmakingform_right{ float:left; width:610px; }
+.quizmakingvideoform_right{ float:left; width:530px; }
+
+.quizmakingform_checkbox{ float:left; width:25px; }
+
+.quizmakingform_radio label{ float:left; width:auto; }
+.quizmakingform_radio input{ float:left; width:30px; }
+.quizmakingform_inputleft{ float:left; width:auto; }
+
+.budgetform input{ float:left; width:160px; }
+.budgetform select{ float:left; width:160px; }
+.budgetform label{ float:left; width:100px; padding-right:5px; }
+
+.textadsform input{ float:left; width:215px;}
+.textadsform textarea{ float:left; width:215px;}
+.textadsform label{ float:left; width:185px; padding:0 10px; text-align:right;}
+/*quiz making video end*/
+
+.jqimessage textarea{ border:1px solid #ccc; vertical-align:top; margin-bottom:10px }
+
+/*error msg*/
+.error_msg{ clear:both; font-size:11px; color:#F00; }
+/*error msg end*/
+.quizmakingform_right, .quizmakingform_left{
+}
+select[ multiple="multiple"]{
+    padding: 3px;
+}
+.right_input{
+    width:344px;
+    display: block;
+    float: left;
+    margin-bottom: 7px;
+}
+body label.left_label{
+    display: block;
+    float: left;
+    width: 230px;
+    margin-right: 10px;
+}

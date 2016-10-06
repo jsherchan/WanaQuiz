@@ -1,0 +1,198 @@
+#game_wrap {
+    margin: 0 auto;
+    width: 490px;
+}
+#game_bg {
+    background: url("../images/game_bg.jpg") no-repeat scroll left top transparent;
+    height: 298px;
+    padding: 5px;
+    position: relative;
+    width: 480px;
+}
+.separator_blue {
+    background: url("../images/separator_blue.jpg") repeat-x scroll left top transparent;
+    height: 2px;
+}
+.gameleftside {
+    float: left;
+    width: auto;
+}
+.gamerightside {
+    float: right;
+    width: auto;
+}
+.answer_option a {
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 61px;
+    line-height: 60px;
+    padding-left: 80px;
+}
+.answer_smalloption a {
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 55px;
+}
+.pointboard_bg {
+    background: url("../images/pointboard_bg.jpg") no-repeat scroll left top transparent;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    height: 160px;
+    text-align: center;
+    width: 153px;
+}
+.pointboard_bgInner {
+    padding: 20px;
+}
+.pointboard_smallbg {
+    background: url("../images/pointboard_smallbg.jpg") no-repeat scroll left top transparent;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    height: 130px;
+    text-align: center;
+    width: 124px;
+}
+.pointboard_smallbgInner {
+    padding: 10px;
+}
+.gamesearch_form {
+    background-color: #FFFFFF;
+    border: 1px solid #BCDBE2;
+    color: #000000;
+    font-size: 14px;
+    height: 24px;
+    padding: 3px 5px;
+    width: 180px;
+}
+.gamesearchbtn_leftborder {
+    background: url("../images/gamesearchbtn_leftborder.jpg") no-repeat scroll left top transparent;
+    float: left;
+    height: 30px;
+    width: 5px;
+}
+.gamesearchbtn_bg {
+    background: url("../images/gamesearchbtn_bg.jpg") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #247D9B;
+    cursor: pointer;
+    float: left;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    height: 30px;
+}
+.gamesearchbtn_rightborder {
+    background: url("../images/gamesearchbtn_rightborder.jpg") no-repeat scroll left top transparent;
+    float: left;
+    height: 30px;
+    width: 5px;
+}
+.game_desc {
+    font-size: 12px;
+}
+.game_desc h1 {
+    color: #2B6880;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.game_desc p {
+    padding: 5px 0;
+}
+.game_desc ol {
+    margin: 0;
+    padding: 10px 0 0 23px;
+}
+.game_desc ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+}
+.game_desc ul li {
+    display: block;
+    padding: 2px 0;
+}
+.lightblue_bg {
+    background-color: #CCFFFF;
+}
+.name_bg {
+    background: url("../images/gamename_bg.jpg") no-repeat scroll left top transparent;
+    color: #0066CC;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 110px;
+}
+.gamelogo_bg {
+    background: url("../images/gamelogo_bg.jpg") no-repeat scroll left top transparent;
+    height: 298px;
+    width: 480px;
+}
+.gamelogo_bgInner {
+    padding: 65px 0 0 50px;
+}
+.gametrans_bg {
+    background: url("../images/gametrans_bg.png") no-repeat scroll left top transparent;
+    height: 193px;
+    margin: 30px 0 0 30px;
+    width: 320px;
+}
+.game_optionicon a {
+    background: url("../images/gameoption_icon.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 20px;
+}
+.moreperson_icon a {
+    background: url("../images/moreperson_icon.jpg") no-repeat scroll left top transparent;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+    padding-left: 55px;
+    width: 150px;
+}
+.moreperson_icon a:hover {
+    text-decoration: none;
+}
+.moreperson_icon a:hover span {
+    background: url("../images/tick_icon.jpg") no-repeat scroll right center transparent;
+    color: #24AB30;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.singleperson_icon a {
+    background: url("../images/oneperson_icon.jpg") no-repeat scroll left top transparent;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 55px;
+    width: 150px;
+}
+.singleperson_icon a:hover {
+    text-decoration: none;
+}
+.singleperson_icon a:hover span {
+    background: url("../images/tick_icon.jpg") no-repeat scroll right center transparent;
+    color: #24AB30;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.formleft {
+    float: left;
+    width: auto;
+}
+.formright {
+    float: right;
+    width: auto;
+}

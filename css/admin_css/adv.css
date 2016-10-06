@@ -1,0 +1,44 @@
+.greentext{
+font-size:10px;
+color:#009966;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.title {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+font-weight:bold;
+}
+
+.greengraph{
+background-image:url(../../images/admin_images/green_bar.png);
+color:#FFFFFF;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+height:14px;
+padding:0px 0px 1px 1px;
+}
+.redgraph{
+background-image:url(../../images/admin_images/gray_bar.png);
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+height:14px;
+padding:0px 0px 1px 1px;
+}
+.msgbox{
+border:1px solid #000000;
+padding:1px 1px 1px 1px;
+background-color:#098EBF;
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+}
+.redtext{
+font-size:10px;
+color:#FF0000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+

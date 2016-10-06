@@ -1,0 +1,45 @@
+.navlist li {
+	width: 200px;
+	height: 20px;
+	color: #fff;
+	background: url("../../images/admin_images/sub-li_bg.png") no-repeat;
+	padding: 5px 0 0 20px;
+}
+.navlist a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	color:#000;
+	padding-left:10px;
+	font-size:8pt;
+
+}
+
+.sqr {
+	background:#3E99DA;
+	vertical-align:middle;
+}
+
+
+.header {
+	background:#195B85;
+	color:#fff;
+	font-size:8pt;
+}
+
+.header a{
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #CCCCCC;
+	text-decoration:none;
+}
+
+.header a:hover{
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFF;
+	text-decoration:underline;
+}
+

@@ -1,0 +1,83 @@
+10
+
+dir
+10964
+svn://78.41.205.108/wannaquiz/system/database/drivers
+svn://78.41.205.108
+
+
+
+2011-08-19T04:26:01.208395Z
+8446
+jitendra
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+1e262f48-28ed-4a5d-9b83-823b7c8584d3
+
+mssql
+dir
+
+sqlite
+dir
+
+oci8
+dir
+
+postgre
+dir
+
+mysql
+dir
+
+odbc
+dir
+
+index.html
+file
+
+
+
+
+2011-08-19T08:08:26.557518Z
+0227cfd904e99656279202032b98d4a7
+2011-08-19T04:26:01.208395Z
+8446
+jitendra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+mysqli
+dir
+

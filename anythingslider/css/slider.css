@@ -1,0 +1,31 @@
+/*
+    anythingSlider v1.0
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+
+.anythingSlider                         { width: 450px; height: 160px; position: relative; margin: 0 auto; top:43px; }
+.anythingSlider .wrapper                { width: 410px; overflow: auto; height: 160px; /*margin: 0 40px;*/ position: absolute; top: 0px; left: 20px; }
+.anythingSlider .wrapper ul             { width: 99999px; list-style: none; position: absolute; top: 0; left: 0; /*background: #eee; border-top: 3px solid #e0a213; border-bottom: 3px solid #e0a213;*/ border-bottom:1px dotted #BBBBBB; margin: 0; }
+.anythingSlider ul li                   { display: block; float: left; padding: 0; height: 160px; width: 410px; margin: 0; }
+.anythingSlider .arrow                  { display: block; height: 70px; width: 67px;  text-indent: -9999px; position: absolute; top: 65px; cursor: pointer; }
+.anythingSlider .forward                { background-position: 0 0; right: -45px; background: url(../images/bannerrightbtn.png) no-repeat 0 0; top:47px}
+.anythingSlider .back                   { background-position: -10px 0; left: -10px; background: url(../images/bannerleftbtn.png) no-repeat 0 0; top:47px}
+
+#thumbNav                               { position: relative; top: 250px; text-align: center; }
+#thumbNav a                             { color: black; font: 11px/18px Georgia, Serif; display: inline-block; padding: 2px 8px; height: 18px; margin: 0 5px 0 0; background: #2380DC; text-align: center; font-weight:bold; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#thumbNav a:hover                       { background-image: none; }
+#thumbNav a.cur                         { background: #2380DC; color:#FFF; }
+
+#start-stop                             { background: #51B806; background-image: url(../images/cellshade.png); background-repeat: repeat-x; color: white; padding: 2px 5px; width: 40px; text-align: center; position: absolute; right: 45px; top: 250px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#start-stop.playing                     { background: #2380DC; }
+#start-stop:hover                       { background-image: none; }
+
+/*
+  Prevents
+*/
+.anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
+.anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }
